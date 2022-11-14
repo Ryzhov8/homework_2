@@ -11,7 +11,6 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-  list-style-type: none;
 }
 
 /*Основна сторінка*/
@@ -19,11 +18,11 @@ body {
   background-color: var(--secondary-white-color);
 }
 
-.logo {
+.logo-header {
   text-decoration: none;
   color: var(--accent-color);
 }
-.logo.header span {
+.logo-header span {
   color: #000000;
 }
 
@@ -31,23 +30,23 @@ body {
   list-style: none;
 }
 
-.site-nav .link {
+.nav-link {
   text-decoration: none;
   color: var(--primary-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
-.contacts .link {
+.contact-header {
   text-decoration: none;
   color: var(--primary-text-color);
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.contact-header:hover,
+.contact-header:focus {
   color: var(--accent-color);
 }
 
@@ -59,7 +58,7 @@ body {
   color: var(--secondary-white-color);
 }
 
-.hero .button {
+.hero-button {
   color: var(--secondary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -80,7 +79,7 @@ body {
   background-color: var(--second-section-bgc);
 }
 
-.team .item {
+.team-item {
   background-color: var(--secondary-white-color);
 }
 
@@ -92,7 +91,12 @@ body {
   background-color: #2f303a;
 }
 
-.logo.footer span {
+.logo-footer {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.logo-footer span {
   color: var(--secondary-white-color);
 }
 
@@ -101,7 +105,7 @@ body {
   text-decoration: none;
 }
 
-.contact-link {
+.contact-footer {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -111,20 +115,19 @@ body {
   color: var(--accent-color);
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-footer:hover,
+.contact-footer:focus {
   color: var(--accent-color);
 }
-
 /*Сторінка портфоліо*/
-.buttons .button {
+.menu-button {
   color: #212121;
   background-color: var(--second-section-bgc);
 }
 
-.buttons .button:hover,
-.buttons .button:focus,
-.buttons .button:active {
+.menu-button:hover,
+.menu-button:focus,
+.menu-button:active {
   color: var(--secondary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
