@@ -1,0 +1,139 @@
+/*Змінні*/
+:root {
+  --primary-white-color: #f5f5f5;
+  --secondary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --second-section-bgc: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  list-style-type: none;
+}
+
+/*Основна сторінка*/
+.header {
+  background-color: var(--secondary-white-color);
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+.logo.header span {
+  color: #000000;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--secondary-white-color);
+}
+
+.hero .button {
+  color: var(--secondary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.benefits {
+  background-color: var(--primary-white-color);
+}
+.benefits .item-text {
+  color: var(--secondary-text-color);
+}
+
+.activity {
+  background-color: var(--primary-white-color);
+}
+
+.team {
+  background-color: var(--second-section-bgc);
+}
+
+.team .item {
+  background-color: var(--secondary-white-color);
+}
+
+.team .item-text {
+  color: var(--secondary-text-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo.footer span {
+  color: var(--secondary-white-color);
+}
+
+.address-link {
+  color: var(--secondary-white-color);
+  text-decoration: none;
+}
+
+.contact-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/*Сторінка портфоліо*/
+.buttons .button {
+  color: #212121;
+  background-color: var(--second-section-bgc);
+}
+
+.buttons .button:hover,
+.buttons .button:focus,
+.buttons .button:active {
+  color: var(--secondary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.project-card {
+  background-color: var(--secondary-white-color);
+}
+
+.project-type {
+  color: #757575;
+}
