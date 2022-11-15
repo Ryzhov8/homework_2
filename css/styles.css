@@ -26,6 +26,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--accent-color);
@@ -41,6 +42,7 @@ body {
 .nav-link {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
@@ -54,6 +56,7 @@ body {
 .contact-header {
   font-weight: 50;
   font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
@@ -73,6 +76,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
@@ -80,8 +84,10 @@ body {
 }
 
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--secondary-white-color);
@@ -98,6 +104,7 @@ body {
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -105,6 +112,7 @@ body {
 .benefits .item-text {
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -118,6 +126,7 @@ body {
 .activity-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
   letter-spacing: 0em;
   text-align: center;
 }
@@ -131,6 +140,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -142,6 +152,7 @@ body {
 .name {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -150,6 +161,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   text-align: center;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -171,6 +183,7 @@ body {
 .address-link {
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-white-color);
   text-decoration: none;
@@ -179,6 +192,7 @@ body {
 .contact-footer {
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -195,8 +209,10 @@ body {
 }
 /*Сторінка портфоліо*/
 .menu-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
@@ -218,12 +234,14 @@ body {
 .project-title {
   font-weight: 700;
   font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .project-type {
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
 }
