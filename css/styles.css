@@ -107,7 +107,12 @@ body {
   text-transform: uppercase;
 }
 
-.benefits .item-text {
+.benefit-title {
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.benefits-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
